@@ -49,42 +49,25 @@
            </div>
          </div>
          <div class="w-col w-col-6">
-           <p class="paragraph-2">The Ethereum community's faithful implementation of 'Bitcoin' in a trustless, immutable Ethereum smart contract.  </p>
-           <img src="@/assets/images/mine.gif"></img>
+           
          </div>
        </div>
      </div>
    </div>
-   <div class="section">
-
-
-    <Carousel />
-
-
-
-   </div>
+  
    <div class="section ctas">
      <div class="autospacing w-container">
        <div class="w-row">
-         <div class="column-4 w-col w-col-6"><img src="@/assets/images/join3.svg" width="125" height="125" alt="">
+         <div class="column-4 w-col w-col-6"> 
            <h2 class="cta heading">Join the Community</h2>
            <div class="div-block-3"><a href="https://www.reddit.com/r/0xbitcoin/" target="_blank" class="button2-base w-inline-block"><img src="images/reddit-icon.svg" height="20" alt="" class="button2image"><div class="text-block-7">Reddit</div></a><a href="https://discordapp.com/invite/JGEqqmS" target="_blank" class="button2-base w-inline-block"><img src="images/discord-icon.svg" height="20" alt="" class="button2image"><div class="text-block-8">Discord</div></a><a href="https://github.com/0xbitcoin" target="_blank" class="button2-base w-inline-block"><img src="images/github-icon.svg" height="20" alt="" class="button2image"><div class="text-block-9">Github</div></a></div>
          </div>
-         <div class="column-3 w-col w-col-6"><img src="@/assets/images/mining-iso2.svg" width="170" height="170" alt="">
-           <h2 class="cta heading">Mine 0xBTC</h2>
-           <div class="div-block-4">
-             <a href="https://www.youtube.com/watch?v=_uEczwlFBbE" target="_blank" class="button2-base w-inline-block">
-               <div>Watch the Tutorial</div>
-             </a>
-             <a href="https://0x1d00ffff.github.io/0xBTC-Stats/?page=stats" target="_blank" class="button2-base w-inline-block">
-               <div>View Mining Stats</div>
-             </a>
-           </div>
-         </div>
+          
        </div>
        <div class="w-row">
-         <div class="column w-col w-col-6"><img src="@/assets/images/market.svg" width="125" height="125" alt="">
-           <h2 class="cta heading">Buy &amp; Sell 0xBTC</h2>
+         <div class="column w-col w-col-6"> 
+
+           <h2 class="cta heading">Trade BIRB</h2>
 
 
 
@@ -92,29 +75,18 @@
               <a href="https://app.uniswap.org/#/swap?outputCurrency=0xb6ed7644c69416d67b522e20bc294a9a9b405b31" target="_blank" class="cta-image-link w-inline-block">
                 <img src="@/assets/images/uniswap.png" width="40" height="40" alt="0xchange logo" class="cta-image"><div class="cta-link">UniswapV2</div></a>
 
-              <a href="https://mercatox.com/exchange/0xBTC/ETH" target="_blank" class="cta-image-link w-inline-block">
-              <img src="@/assets/images/Mercatox.svg" width="40" height="40" alt="mercatox logo" class="cta-image"><div class="cta-link">Mercatox</div></a>
-               <a href="https://forkdelta.app/#!/trade/0xBTC-ETH" target="_blank" class="cta-image-link w-inline-block">
-                <img src="@/assets/images/forkdelta-1.svg" width="40" height="40" alt="Forkdelta logo" class="cta-image"><div class="cta-link">Forkdelta</div></a>
+               
           </div>
 
 
          </div>
-         <div class="column-2 w-col w-col-6"><img src="@/assets/images/wallet4.svg" width="125" height="125" alt="">
+         <div class="column-2 w-col w-col-6"> 
            <h2 class="cta heading">Compatible Wallets</h2>
            <div class="div-block-6">
              <a href="https://metamask.io/" target="_blank" class="cta-image-link w-inline-block">
              <img src="@/assets/images/metamask.svg" width="40" height="40" alt="Metamask" class="cta-image">
              <div class="cta-link">Metamask</div></a>
-             <a href="https://trustwallet.com/" target="_blank" class="cta-image-link w-inline-block">
-               <img src="@/assets/images/trust-white-logo.svg" width="40" height="40" alt="Trust Wallet" class="cta-image">
-               <div class="cta-link">Trust</div></a>
-               <a href="https://wallet.coinbase.com/" target="_blank" class="cta-image-link w-inline-block">
-                 <img src="@/assets/images/coinbase-wallet.svg" width="40" height="40" alt="" class="cta-image">
-                 <div class="cta-link">Coinbase Wallet</div></a>
-                 <a href="https://www.ledger.com/" target="_blank" class="cta-image-link w-inline-block">
-                   <img src="@/assets/images/ledgerwhite.svg" width="40" height="40" alt="" class="cta-image">
-                   <div class="cta-link">Ledger</div></a></div>
+             </div>
          </div>
        </div>
      </div>
@@ -131,7 +103,7 @@
              </a>
            </div>
          </div>
-         <div class="column-13 w-col w-col-6"><img src="@/assets/images/noticeboard-2.svg" width="200" height="200" alt="" class="notice-board-image"></div>
+       
        </div>
      </div>
    </div>
@@ -151,14 +123,13 @@
 
 
 <script>
-import Navbar from './components/Navbar.vue';
-import Carousel from './components/Carousel.vue';
+import Navbar from './components/Navbar.vue'; 
 import Footer from './components/Footer.vue';
 
 export default {
   name: 'Home',
   props: [],
-  components: {Navbar,Carousel,Footer},
+  components: {Navbar, Footer},
   data() {
     return {
 
