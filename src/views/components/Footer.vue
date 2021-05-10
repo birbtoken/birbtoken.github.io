@@ -5,26 +5,24 @@
         <div class="flex flex-col w-1/3">
           <h3 class="text-lg font-bold py-2">Documentation</h3>
 
-          <router-link :to="{name: 'docs'}" class="footer-link">0xBitcoin API Wiki</router-link>
-          <a href="https://github.com/0xbitcoin/white-paper" target="_blank" class="footer-link">White Paper</a>
-          <a href="https://etherscan.io/address/0xb6ed7644c69416d67b522e20bc294a9a9b405b31#code" target="_blank" class="footer-link">Contract Code</a>
-          <a href="https://github.com/EthereumCommonwealth/Auditing/issues/102" target="_blank" class="footer-link">Smart Contract Audit</a>
-          <a href="https://0xbtc.info/" target="_blank" class="footer-link">0xBTC Block Explorer</a></div>
-        <div class="flex flex-col w-1/3">
-          <h3 class="text-lg font-bold py-2">Community &amp; Social</h3>
-          <a href="https://github.com/0xbitcoin" target="_blank" class="footer-link">0xBTC Github</a>
-          <a href="https://discordapp.com/invite/JGEqqmS" target="_blank" class="footer-link">Discord</a>
-          <a href="https://twitter.com/0xbitcoin_erc20" target="_blank" class="footer-link">Twitter</a>
-          <a href="https://www.reddit.com/r/0xbitcoin/" target="_blank" class="footer-link">Reddit</a></div>
-        <div class="flex flex-col">
-          <h3 class="text-lg font-bold py-2">Fun &amp; Learning</h3>
-          <a href="https://meoau.itch.io/zero-chan-learns-crypto" target="_blank" class="footer-link">Play Trav&#x27;s 0xBTC Game</a>
-            <a href="https://docs.0xbitcoin.org" target="_blank" class="footer-link">0xBTC Wiki</a> 
+           <a href="https://github.com/birbtoken " target="_blank" class="footer-link">BIRB Github</a>
 
         </div>
+        <div class="flex flex-col w-1/3">
+          <h3 class="text-lg font-bold py-2">Community &amp; Social</h3>
+          
+          <a href="https://www.reddit.com/r/birbtoken/" target="_blank" class="footer-link">Reddit</a>
+          
+          </div>
+        <div class="flex flex-col hidden">
+          <h3 class="text-lg font-bold py-2">Fun &amp; Learning</h3>
+          
+        </div>
 
-      </div>
+      
     </div>
+
+     </div>
   </div>
 </template>
 
