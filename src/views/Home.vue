@@ -11,8 +11,8 @@
      <div class="w-container">
        <div class="hero-text w-row">
          <div class="w-col w-col-6">
-           <h1 class="heading hidden lg:block">0xBitcoin</h1>
-           <div class="text-block-11 mt-20 lg:mt-0">PoW Mined ERC20 Currency</div>
+           <div class="text-2xl">BIRB to the moon!</div>
+           <div class="text-mg mt-2"> Good birb.</div>
          </div>
          <div class="w-col w-col-6">
          </div>

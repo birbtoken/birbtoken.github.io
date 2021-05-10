@@ -4,8 +4,8 @@
     <div class="container w-container">
       <div class="w-full w-clearfix">
         <a href="/" class="brand w-nav-brand w--current">
-          <img src="@/assets/images/logo.png" height="35"  alt="" class="w-6 m-2">
-          <div class=" text-block-10">0xBitcoin</div>
+          <img src="@/assets/images/birb.png" height="35"  alt="" class="w-6 m-2">
+          <div class=" text-block-10">Birb Token</div>
        </a>
 
        <div class="hidden lg:inline-block  ">
