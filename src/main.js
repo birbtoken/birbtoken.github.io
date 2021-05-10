@@ -6,9 +6,9 @@ import router from './router'
 import '@fortawesome/fontawesome-free/js/all.js';
 import './css/main.css'
 import './css/normalize.css'
-import './css/webflow.css'
-import './css/0xbtc.webflow.css'
-import './css/github-markdown.css'
+//import './css/webflow.css'
+//import './css/0xbtc.webflow.css'
+//import './css/github-markdown.css'
 
 Vue.config.productionTip = false
 

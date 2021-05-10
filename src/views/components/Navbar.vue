@@ -1,11 +1,15 @@
 <template>
   <div data-collapse="small" data-animation="default" data-duration="400" class="navbar w-nav">
     <div class="bg-gray-900 lg:bg-transparent">
-    <div class="container w-container">
-      <div class="w-full w-clearfix">
-        <a href="/" class="brand w-nav-brand w--current">
-          <img src="@/assets/images/birb.png" height="35"  alt="" class="w-6 m-2">
-          <div class=" text-block-10">Birb Token</div>
+    <div class="container w-container ">
+
+
+      <div class="w-full flex flex-row">
+
+
+        <a href="/" class="text-white flex-grow">
+          <img src="@/assets/images/birb.png" style="width:45px;height:45px;"  alt="" class="w-6 m-2  inline-block">
+          <div class=" inline-block py-6 text-lg">Birb Token</div>
        </a>
 
        <div class="hidden lg:inline-block  ">
