@@ -1,7 +1,7 @@
 <template>
   <div class="section bg-gray-900 text-white">
     <div class="container-3 w-container">
-      <div class="flex flex-row px-2 pb-8">
+      <div class="flex flex-row px-2 py-8 pb-8">
         <div class="flex flex-col w-1/3">
           <h3 class="text-lg font-bold py-2">Documentation</h3>
 

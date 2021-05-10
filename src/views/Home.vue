@@ -11,7 +11,7 @@
      <div class="w-container py-6">
        <div class="text-white flex flex-row">
          <div class="w-1/2">
-           <div class="text-4xl p-2">The decentralized meme token with programmed scarcity, all inside of Ethereum.</div>
+           <div class="text-xl md:text-4xl p-2">The decentralized meme token with programmed scarcity and rewards.</div>
            <div class="text-mg mt-2 p-2"> Good birb.</div>
          </div>
 
@@ -38,42 +38,68 @@
      </div>
    </div>
   
-   <div class="section  bg-gray-800 py-4 text-white ">
-     <div class="autospacing w-container">
-       <div class="w-row">
-         <div class="column-4 w-col w-col-6"> 
-           <h2 class="cta heading">Join the Community</h2>
-           <div class="div-block-3"><a href="https://www.reddit.com/r/0xbitcoin/" target="_blank" class="button2-base w-inline-block"><img src="images/reddit-icon.svg" height="20" alt="" class="button2image"><div class="text-block-7">Reddit</div></a><a href="https://discordapp.com/invite/JGEqqmS" target="_blank" class="button2-base w-inline-block"><img src="images/discord-icon.svg" height="20" alt="" class="button2image"><div class="text-block-8">Discord</div></a><a href="https://github.com/0xbitcoin" target="_blank" class="button2-base w-inline-block"><img src="images/github-icon.svg" height="20" alt="" class="button2image"><div class="text-block-9">Github</div></a></div>
-         </div>
-          
-       </div>
-       <div class="w-row">
-         <div class="column w-col w-col-6"> 
+   <div class="section  bg-gray-800 py-4 text-white py-16">
+     <div class=" w-container text-white">
 
-           <h2 class="cta heading">Trade BIRB</h2>
+       <div class="text-3xl mb-8"> Community </div> 
+
+        <div class="text-md lg:text-lg text-center  "> The greater BIRB community is growing every day and already has 25K+ members. Please visit one of our social communities below and join us! </div> 
 
 
+       <div class=" text-center  m-4">
 
-            <div class="div-block-5">
-              <a href="https://app.uniswap.org/#/swap?outputCurrency=0xb6ed7644c69416d67b522e20bc294a9a9b405b31" target="_blank" class="cta-image-link w-inline-block">
-                <img src="@/assets/images/uniswap.png" width="40" height="40" alt="0xchange logo" class="cta-image"><div class="cta-link">UniswapV2</div></a>
-
-               
+          <div class="w-1/2   " style="margin:0 auto;">
+           <a class="inline-block bg-blue-600 p-2 text-white   m-2" href=" " target="_blank"> BIRB Discord </a> 
+           <a class="inline-block bg-blue-600 p-2 text-white   m-2" href=" " target="_blank"> BIRB Reddit </a> 
           </div>
 
-
-         </div>
-         <div class="column-2 w-col w-col-6"> 
-           <h2 class="cta heading">Compatible Wallets</h2>
-           <div class="div-block-6">
-             <a href="https://metamask.io/" target="_blank" class="cta-image-link w-inline-block">
-             <img src="@/assets/images/metamask.svg" width="40" height="40" alt="Metamask" class="cta-image">
-             <div class="cta-link">Metamask</div></a>
-             </div>
-         </div>
        </div>
+
+
+
      </div>
    </div>
+
+
+     <div class="section  bg-gray-900 py-4 text-white py-16">
+     <div class=" w-container text-white">
+
+       <div class="text-3xl mb-8"> Trade BIRB </div> 
+
+        <div class="text-lg text-center  "> Buy and Sell BIRB on Decentralized Exchanges </div> 
+ 
+       <div class="  text-center m-4">
+
+         
+           <a class="inline-block bg-blue-600 p-2 text-white" href="https://uniswap.io" target="_blank">   UniswapV3 - BIRB/ETH  </a> 
+        
+       
+       </div>
+
+
+
+     </div>
+   </div>
+
+     <div class="section  bg-gray-800 py-4 text-white py-16">
+     <div class=" w-container text-white">
+
+       <div class="text-3xl mb-8">  BIRB Rewards </div> 
+
+        <div class="text-lg text-center  "> All BIRB starts life inside of 'The Guild DAO' decentralized community.  In order to mint BIRB, shares in The Guild must be forfeited, paying out cryptocurrency to all other members of The Guild DAO.  This makes distribution of BIRB decentralized, fair, and rewarding to the Ethereum community.    </div> 
+        
+       <div class="  text-center m-4">
+
+         <a class="inline-block bg-blue-600 p-2 text-white" href="https://guild.0xbtc.io" target="_blank"> Visit the Guild DAO Website </a> 
+        
+       
+       </div>
+
+
+
+     </div>
+   </div>
+    
     
    
 
