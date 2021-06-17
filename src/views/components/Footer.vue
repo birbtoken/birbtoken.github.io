@@ -5,7 +5,8 @@
         <div class="flex flex-col w-1/3">
           <h3 class="text-lg font-bold py-2">Documentation</h3>
 
-           <a href="https://github.com/birbtoken " target="_blank" class="footer-link">BIRB Github</a>
+           <a href="https://etherscan.io/address/0x216d7636b791Ed93BFD56BF696b35A14115416ab " target="_blank" class="footer-link">Token Contract</a>
+        <a href="https://github.com/birbtoken " target="_blank" class="footer-link">BIRB Github</a>
 
         </div>
         <div class="flex flex-col w-1/3">
