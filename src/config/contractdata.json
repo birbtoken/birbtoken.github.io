@@ -1,0 +1,33 @@
+{
+    "mainnet":{
+      
+  
+      "contracts":{
+        "0xbitcoin":{"name":"0xBTC","address":"0xb6ed7644c69416d67b522e20bc294a9a9b405b31","decimals":8 },
+        
+        
+        "birb":{"address":"0x216d7636b791Ed93BFD56BF696b35A14115416ab"} 
+   
+     
+     
+     
+      }
+  
+  
+    },
+    "goerli":{
+      
+      "contracts":{
+        "0xbitcoin":{"name":"0xBTC","address":"0xab89a7742cb10e7bce98540fd05c7d731839cf9f","decimals":8 },
+   
+        
+  
+        "birb":{"address":"0x7067e8c46e729322d6d75d82aa0cda5284ebae2b"}
+  
+      }
+  
+  
+    }
+  
+  
+  }
