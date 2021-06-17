@@ -12,20 +12,27 @@
        <div class="text-white flex flex-row">
          <div class="w-1/2">
            <div class="text-xl md:text-4xl p-2">The cutest coin with scarcity and rewards.</div>
-           <div class="my-8">
-           <router-link to="/farm" class="text-md   p-2 bg-blue-600 hover:bg-blue-500 text-white rounded"> Start your birb farm now</router-link>
+          
+          <div class="my-8 px-4 hidden sm:block">
+           <router-link to="/farm" class="text-xs md:text-md    p-2 bg-blue-600 hover:bg-blue-500 text-white rounded"> Start your birb farm now</router-link>
           </div>
-  
    </div>
 
          <div class="flex-grow"> </div>
-         <div class="flex flex-row p-4">
+         <div class="flex flex-row py-4 overflow-hidden">
             <img src="@/assets/images/bluebirb.png" class=" " style="width:140px;height:140px"/>
-            <img src="@/assets/images/redbirb.png" class=" " style="width:80px;height:80px"  />
+            <img src="@/assets/images/redbirb.png" class=" " style="width:80px;height:80px;margin-left:-25px"  />
          </div>
        </div>
       
      </div>
+
+    <div class="w-container py-6 sm:hidden">
+      <div class="my-8 px-4">
+           <router-link to="/farm" class="text-xs md:text-md    p-2 bg-blue-600 hover:bg-blue-500 text-white rounded"> Start your birb farm now</router-link>
+          </div>
+     </div>
+
    </div>
 
    <div class="section autospacing hidden ">
@@ -44,7 +51,7 @@
    <div class="section  bg-gray-800 py-4 text-white py-16">
      <div class=" w-container text-white">
 
-       <div class="text-3xl mb-8"> Community </div> 
+       <div class="text-3xl mb-8 px-2"> Community </div> 
 
         <div class="text-md lg:text-lg text-center  "> The greater BIRB community is growing every day and already has 5000+ members. Visit one of our social communities below and join us! </div> 
 
@@ -67,7 +74,7 @@
      <div class="section  bg-gray-900 py-4 text-white py-16">
      <div class=" w-container text-white">
 
-       <div class="text-3xl mb-8"> Trade BIRB </div> 
+       <div class="text-3xl mb-8 px-2"> Trade BIRB </div> 
 
         <div class="text-lg text-center  "> Buy and Sell BIRB on Decentralized Exchanges </div> 
  
@@ -108,7 +115,7 @@
     <div class="section  bg-gray-800 py-4 text-white py-16">
      <div class=" w-container text-white">
 
-       <div class="text-3xl mb-8">  BIRB Farming </div> 
+       <div class="text-3xl mb-8 px-2">  BIRB Farming </div> 
 
         <div class="text-lg text-center  "> Farming BIRB earns you rewards over time with zero risk of Impermanent Loss.    </div> 
         
