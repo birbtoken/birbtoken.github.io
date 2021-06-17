@@ -13,7 +13,7 @@
          <div class="w-1/2">
            <div class="text-xl md:text-4xl p-2">The cutest coin with scarcity and rewards.</div>
            <div class="my-8">
-           <router-link :to="'/farm'" class="text-md   p-2 bg-blue-600 hover:bg-blue-500 text-white rounded"> Start your birb farm now</router-link>
+           <router-link to="/farm" class="text-md   p-2 bg-blue-600 hover:bg-blue-500 text-white rounded"> Start your birb farm now</router-link>
           </div>
   
    </div>
@@ -74,7 +74,7 @@
        <div class="  text-center m-4">
 
          
-           <a class="inline-block bg-blue-600 p-2 text-white" href="https://uniswap.io" target="_blank">   UniswapV3 - BIRB/ETH  </a> 
+           <a class="inline-block bg-blue-600 p-2 text-white" href="https://app.uniswap.org/#/swap?outputCurrency=0x216d7636b791Ed93BFD56BF696b35A14115416ab" target="_blank">   UniswapV3 - BIRB/ETH  </a> 
         
        
        </div>
@@ -94,7 +94,7 @@
         
        <div class="  text-center m-4">
 
-         <router-link class="inline-block bg-blue-600 p-2 text-white" to="/claim" target="_blank"> Claim your BIRB </router-link> 
+         <router-link class="inline-block bg-blue-600 p-2 text-white" to="/claim" > Claim your BIRB </router-link> 
         
        
        </div>
@@ -114,7 +114,7 @@
         
        <div class="  text-center m-4">
 
-         <router-link class="inline-block bg-blue-600 p-2 text-white" to="/farm" target="_blank"> Start farming BIRB </router-link> 
+         <router-link class="inline-block bg-blue-600 p-2 text-white" to="/farm"  > Start farming BIRB </router-link> 
         
        
        </div>
