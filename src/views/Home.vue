@@ -11,8 +11,8 @@
      <div class="w-container py-6">
        <div class="text-white flex flex-row">
          <div class="w-1/2">
-           <div class="text-xl md:text-4xl p-2">The decentralized meme token with programmed scarcity and rewards.</div>
-           <div class="text-mg mt-2 p-2"> Good birb.</div>
+           <div class="text-xl md:text-4xl p-2">The decentralized coin with scarcity and rewards.</div>
+           <router-link :to="'/farm'" class="text-mg mt-2 p-2 bg-blue-600 hover:bg-blue-500 text-white rounded"> Start your birb farm now</router-link>
          </div>
 
          <div class="flex-grow"> </div>
@@ -49,8 +49,8 @@
        <div class=" text-center  m-4">
 
           <div class="w-1/2   " style="margin:0 auto;">
-           <a class="inline-block bg-blue-600 p-2 text-white   m-2" href=" " target="_blank"> BIRB Discord </a> 
-           <a class="inline-block bg-blue-600 p-2 text-white   m-2" href=" " target="_blank"> BIRB Reddit </a> 
+           <a class="inline-block bg-blue-600 p-2 text-white   m-2" href="https://discord.gg/VvgGuW6" target="_blank"> BIRB Discord </a> 
+           <a class="inline-block bg-blue-600 p-2 text-white   m-2" href="https://www.reddit.com/r/BirbToken/" target="_blank"> BIRB Reddit </a> 
           </div>
 
        </div>
@@ -77,20 +77,41 @@
        </div>
 
 
+       
+
+
 
      </div>
-   </div>
 
-     <div class="section  bg-gray-800 py-4 text-white py-16">
-     <div class=" w-container text-white">
 
-       <div class="text-3xl mb-8">  BIRB Rewards </div> 
+      <div class=" w-container text-white mt-8">
 
-        <div class="text-lg text-center  "> All BIRB starts life inside of 'The Guild DAO' decentralized community.  In order to mint BIRB, shares in The Guild must be forfeited, paying out cryptocurrency to all other members of The Guild DAO.  This makes distribution of BIRB decentralized, fair, and rewarding to the Ethereum community.    </div> 
+     
+        <div class="text-lg text-center  "> BIRB can also be claimed using Mineable tokens like 0xBTC!     </div> 
         
        <div class="  text-center m-4">
 
-         <a class="inline-block bg-blue-600 p-2 text-white" href="https://guild.0xbtc.io" target="_blank"> Visit the Guild DAO Website </a> 
+         <router-link class="inline-block bg-blue-600 p-2 text-white" to="/claim" target="_blank"> Claim your BIRB </router-link> 
+        
+       
+       </div>
+
+
+
+     </div>
+
+   </div>
+
+    <div class="section  bg-gray-800 py-4 text-white py-16">
+     <div class=" w-container text-white">
+
+       <div class="text-3xl mb-8">  BIRB Farming </div> 
+
+        <div class="text-lg text-center  "> Farming BIRB earns you rewards over time with zero risk of Impermanent Loss.    </div> 
+        
+       <div class="  text-center m-4">
+
+         <router-link class="inline-block bg-blue-600 p-2 text-white" to="/farm" target="_blank"> Start farming BIRB </router-link> 
         
        
        </div>
@@ -99,6 +120,8 @@
 
      </div>
    </div>
+
+ 
     
     
    
