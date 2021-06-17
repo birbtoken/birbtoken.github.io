@@ -14,6 +14,13 @@
           
           <a href="https://www.reddit.com/r/birbtoken/" target="_blank" class="footer-link">Reddit</a>
           
+        <a href="https://info.uniswap.org/#/pools/0xbd11021c0ac901bcd04b5a796744cb8f22fb2b41" target="_blank" class="footer-link">BIRB Uniswap Stats</a>
+          
+
+           
+
+
+
           </div>
         <div class="flex flex-col hidden">
           <h3 class="text-lg font-bold py-2">Fun &amp; Learning</h3>

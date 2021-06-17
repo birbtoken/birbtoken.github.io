@@ -23,6 +23,11 @@
    <div class="section autospacing bg-gray-900 py-6  ">
      <div class="w-container">
        <div class="w-row">
+
+          
+
+        
+
          <div class="text-white text-xl md:text-4xl p-2"> Farming Recommendations </div>
 
           <ul class="text-gray-200 my-8">
