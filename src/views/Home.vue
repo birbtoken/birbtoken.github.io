@@ -59,8 +59,8 @@
        <div class=" text-center  m-4">
 
           <div class="w-1/2   " style="margin:0 auto;">
-           <a class="inline-block bg-blue-600 p-2 text-white   m-2" href="https://discord.gg/VvgGuW6" target="_blank"> BIRB Discord </a> 
-           <a class="inline-block bg-blue-600 p-2 text-white   m-2" href="https://www.reddit.com/r/BirbToken/" target="_blank"> BIRB Reddit </a> 
+           <a class="inline-block bg-gray-200 p-2 text-black border-black border-4  m-2" href="https://discord.gg/VvgGuW6" target="_blank"> BIRB Discord </a> 
+           <a class="inline-block bg-gray-900 p-2 text-white   m-2 " href="https://www.reddit.com/r/BirbToken/" target="_blank"> BIRB Reddit </a> 
           </div>
 
        </div>
@@ -81,7 +81,7 @@
        <div class="  text-center m-4">
 
          
-           <a class="inline-block bg-blue-600 p-2 text-white" href="https://app.uniswap.org/#/swap?outputCurrency=0x216d7636b791Ed93BFD56BF696b35A14115416ab" target="_blank">   UniswapV3 - BIRB/ETH  </a> 
+           <a class="inline-block bg-pink-600 p-2 text-white" href="https://app.uniswap.org/#/swap?outputCurrency=0x216d7636b791Ed93BFD56BF696b35A14115416ab" target="_blank"> 🦄 UniswapV3 - BIRB/ETH  </a> 
         
        
        </div>
@@ -101,7 +101,7 @@
         
        <div class="  text-center m-4">
 
-         <router-link class="inline-block bg-blue-600 p-2 text-white" to="/claim" > Claim your BIRB </router-link> 
+         <router-link class="inline-block bg-purple-600 p-2 text-white" to="/claim" > Claim your BIRB </router-link> 
         
        
        </div>

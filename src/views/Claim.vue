@@ -2,13 +2,16 @@
 
 <div>
 
-   <div class="section bg-gray-900 px-0 lg:px-1">
+   <div class="section bg-gray-900 px-0 lg:px-1  ">
 
-     <div class="mb-8">
+     <div class="">
        <Navbar />
      </div>
 
-     <div class="w-container py-6 bg-gray-800">
+    </div>
+
+    <div class="section bg-gray-800 py-8">
+     <div class="w-container ">
          <div class="text-white text-xl md:text-4xl p-2"> Claim BIRB 🐣 </div>
 
 
@@ -36,10 +39,11 @@
 
 
       
-     </div>
+     
    </div>
+    </div>
 
-   <div class="section autospacing bg-gray-900  ">
+   <div class="section autospacing bg-gray-900 py-8 " v-if="connectedToWeb3">
      <div class="w-container">
       
        <div class="text-white text-xl md:text-4xl p-2"> Burn BIRB 🔥 </div>
@@ -63,13 +67,13 @@
    </div>
   
    <div class="section  bg-gray-800 py-4 text-white py-16 px-4">
-
+     <div class="w-container">
      <p class="text-sm"> In order to stabilize price and enable zero-loss farming, BIRB is atomically pegged to the largest mineable token  (0xBTC) on the Ethereum Mainnet Network.  This means that BIRB is bi-directionally hot-swappable with 0xBTC at a 100,000,000:1 ratio.  (That's 8 zeroes!) 🐦 
        
      </p>
     
    </div>
-
+  </div>
  
  
  
