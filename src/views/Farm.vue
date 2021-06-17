@@ -14,7 +14,7 @@
           <div class="text-sm mt-4 p-4 text-white "> Your BIRB Balance: <div class="text-md inline"> {{ formatRawAmount( balances["birb"],8)  }} </div> </div>
                   
           <div class="p-4">
-               <a class="bg-pink-500 p-2 rounded text-white" href="https://app.uniswap.org/#/add/0xB6eD7644C69416d67B522e20bC294A9a9B405B31/0x216d7636b791Ed93BFD56BF696b35A14115416ab/500" target="_blank"> Farm BIRB on UniswapV3 </a>
+               <a class="bg-pink-600 hover:bg-pink-500 p-4 rounded text-white" href="https://app.uniswap.org/#/add/0xB6eD7644C69416d67B522e20bC294A9a9B405B31/0x216d7636b791Ed93BFD56BF696b35A14115416ab/500" target="_blank"> Farm BIRB on UniswapV3 </a>
           </div>
 
      </div>
