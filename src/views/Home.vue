@@ -101,7 +101,7 @@
         
        <div class="  text-center m-4">
 
-         <router-link class="inline-block bg-purple-600 p-2 text-white" to="/claim" > Claim your BIRB </router-link> 
+         <router-link class="inline-block bg-purple-600 p-2 text-white" to="/claim" > 🐣  Claim your BIRB </router-link> 
         
        
        </div>
