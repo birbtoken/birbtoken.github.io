@@ -11,16 +11,29 @@
      <div class="w-container py-6 text-white">
          <div class="text-white text-xl md:text-4xl p-2"> BIRB Farming</div>
 
-          <div class="text-sm mt-4 p-4 text-white "> Your BIRB Balance: <div class="text-md inline"> {{ formatRawAmount( balances["birb"],8)  }} </div> </div>
-                  
-          <div class="p-4">
-               <a class="bg-pink-600 hover:bg-pink-500 p-4 rounded text-white" href="https://app.uniswap.org/#/add/0xB6eD7644C69416d67B522e20bC294A9a9B405B31/0x216d7636b791Ed93BFD56BF696b35A14115416ab/500" target="_blank"> Farm BIRB on UniswapV3 </a>
-          </div>
 
+            <div v-if="!connectedToWeb3" class="p-4 text-white">
+
+                   <div class="text-md my-2"> Please connect to Web3  </div>
+ 
+                  <div  @click="connectToWeb3" class="button bg-blue-500 hover:bg-blue-700 text-sm text-black font-bold my-2 py-1 px-2 rounded cursor-pointer inline ">Login with Web3</div>
+
+
+                </div>
+
+        <div v-if="connectedToWeb3">
+
+
+              <div class="text-sm mt-4 p-4 text-white "> Your BIRB Balance: <div class="text-md inline"> {{ formatRawAmount( balances["birb"],8)  }} </div> </div>
+                      
+              <div class="p-4">
+                  <a class="bg-pink-600 hover:bg-pink-500 p-4 rounded text-white" href="https://app.uniswap.org/#/add/0xB6eD7644C69416d67B522e20bC294A9a9B405B31/0x216d7636b791Ed93BFD56BF696b35A14115416ab/500" target="_blank"> Farm BIRB on UniswapV3 </a>
+              </div>
+       </div>
      </div>
    </div>
 
-   <div class="section autospacing bg-gray-900 py-6  ">
+   <div class="section autospacing bg-gray-900 py-6  " v-if="connectedToWeb3">
      <div class="w-container">
        <div class="w-row">
 
