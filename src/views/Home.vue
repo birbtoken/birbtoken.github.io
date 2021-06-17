@@ -11,9 +11,12 @@
      <div class="w-container py-6">
        <div class="text-white flex flex-row">
          <div class="w-1/2">
-           <div class="text-xl md:text-4xl p-2">The decentralized coin with scarcity and rewards.</div>
-           <router-link :to="'/farm'" class="text-mg mt-2 p-2 bg-blue-600 hover:bg-blue-500 text-white rounded"> Start your birb farm now</router-link>
-         </div>
+           <div class="text-xl md:text-4xl p-2">The cutest coin with scarcity and rewards.</div>
+           <div class="my-8">
+           <router-link :to="'/farm'" class="text-md   p-2 bg-blue-600 hover:bg-blue-500 text-white rounded"> Start your birb farm now</router-link>
+          </div>
+  
+   </div>
 
          <div class="flex-grow"> </div>
          <div class="flex flex-row p-4">
@@ -43,7 +46,7 @@
 
        <div class="text-3xl mb-8"> Community </div> 
 
-        <div class="text-md lg:text-lg text-center  "> The greater BIRB community is growing every day and already has 25K+ members. Please visit one of our social communities below and join us! </div> 
+        <div class="text-md lg:text-lg text-center  "> The greater BIRB community is growing every day and already has 5000+ members. Visit one of our social communities below and join us! </div> 
 
 
        <div class=" text-center  m-4">
@@ -87,7 +90,7 @@
       <div class=" w-container text-white mt-8">
 
      
-        <div class="text-lg text-center  "> BIRB can also be claimed using Mineable tokens like 0xBTC!     </div> 
+        <div class="text-lg text-center  "> BIRB can also be claimed using Mineable tokens!     </div> 
         
        <div class="  text-center m-4">
 
