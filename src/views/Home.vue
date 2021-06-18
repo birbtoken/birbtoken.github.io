@@ -81,7 +81,7 @@
        <div class="  text-center m-4">
 
          
-           <a class="inline-block bg-pink-600 p-2 text-white" href="https://app.uniswap.org/#/swap?outputCurrency=0x216d7636b791Ed93BFD56BF696b35A14115416ab" target="_blank"> 🦄 UniswapV3 - BIRB/ETH  </a> 
+           <a class="inline-block bg-pink-600 p-2 text-white" href="https://www.birbswap.io/#/swap?outputCurrency=0x216d7636b791Ed93BFD56BF696b35A14115416ab" target="_blank"> 🐦 BirbswapV3 - BIRB/ETH Pair </a> 
         
        
        </div>
