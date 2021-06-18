@@ -12,7 +12,7 @@
         <div class="flex flex-col w-1/2">
           <h3 class="text-lg font-bold py-2">Community &amp; Social</h3>
 
-          <a href="https://swap.birbtoken.com" target="_blank" class="footer-link">BirbSwap</a>
+          <a href="https://birbswap.io" target="_blank" class="footer-link">BirbSwap</a>
 
 
           <a href="https://www.reddit.com/r/birbtoken/" target="_blank" class="footer-link">Reddit</a>

@@ -14,7 +14,7 @@
            <div class="text-xl md:text-4xl p-2">The cutest coin with scarcity and rewards.</div>
           
           <div class="my-8 px-4 hidden sm:block">
-               <a target="_blank" href="https://swap.birbtoken.com" class="text-sm md:text-md p-2 bg-blue-600 hover:bg-blue-500 text-white rounded"> 🐦 Open Birbswap DEX </a>
+               <a target="_blank" href="https://birbswap.io" class="text-sm md:text-md p-2 bg-blue-600 hover:bg-blue-500 text-white rounded"> 🐦 Open Birbswap DEX </a>
           </div>
    </div>
 
