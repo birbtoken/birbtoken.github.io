@@ -61,8 +61,13 @@
    </div>
   
    <div class="section  bg-gray-800 py-4 text-white py-16">
-      <p class="text-gray-200"> As traders buy and sell BIRB, and as the price of BIRB and 0xBTC change, arbitrageurs and traders will often use the high-liquidity BIRB-0xBTC pool as part of the route.  When this happens, all liquidity providers earn a small trading fee as a staking reward.  Since the assets can be claimed for one another at a flat rate, there is no risk of Impermanent Loss.  This means that Liquidity Providers make risk-free income.  </p> 
+      <div class="w-container">
+       <div class="w-row">
 
+
+      <p class="text-gray-200"> As traders buy and sell BIRB, and as the price of BIRB and 0xBTC change, arbitrageurs and traders will often use the high-liquidity BIRB-0xBTC pool as part of the route.  When this happens, all liquidity providers earn a small trading fee as a staking reward.  Since the assets can be claimed for one another at a flat rate, there is no risk of Impermanent Loss.  This means that Liquidity Providers make risk-free income.  </p> 
+       </div>
+     </div>
    </div>
 
  
